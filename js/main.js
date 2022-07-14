@@ -10,7 +10,7 @@ $(function () {
     });
     if(win_width>480){
         $('html, body').animate({
-            scrollTop : 750    
+            scrollTop : 850    
             }, 500);
     }else{
         $('html, body').animate({
@@ -28,7 +28,7 @@ $(function () {
     });
     if(win_width>480){
         $('html, body').animate({
-            scrollTop : 1600    
+            scrollTop : 1700    
             }, 500);
     }else{
         $('html, body').animate({
@@ -46,7 +46,7 @@ $(function () {
     });
     if(win_width>480){
         $('html, body').animate({
-            scrollTop : 2400    
+            scrollTop : 2550    
             }, 500);
     }else{
         $('html, body').animate({
