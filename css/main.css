@@ -2498,3 +2498,32 @@ label {
     cursor: pointer;
   }
 }
+@media screen and (max-width:360px){
+  .a1{
+    height: 100vh;
+    width: 100%;
+    background-color: #354259;
+  }
+  .a1 .a1_box{
+      height: 100%;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 150px;
+  }
+  .a1_right{
+    margin-top: 50px;
+  }
+  .a1_right .textcontainer {
+    text-align: right;
+    margin-right: 40px;
+  }
+  .a1_right .particletext {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    color: #354259;
+    text-shadow: 0 3px 5px #c4b59d, 0px -2px 1px #fff;
+    letter-spacing: -3px;
+  }
