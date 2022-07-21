@@ -71,7 +71,10 @@ $(function () {
     });
 
     // pdf 파일열기
-    $('.a2 .a2_box .a2_center ul li p').click(function(){
+    $('.a2 .a2_box .a2_center ul li:first-child p').click(function(){
+        window.open('PORTFOLIO.pdf');
+    });
+    $('.a2 .a2_box .a2_center ul li:last-child p').click(function(){
         window.open('sdh.pdf');
     });
 
